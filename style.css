@@ -1,0 +1,114 @@
+body {
+    background-color: #C6F085;
+    margin: 0;
+    font-family: 'Muli';
+}
+header{
+    background-color: #05660d;
+    padding: 15px;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 42px;
+    
+}
+h2 {
+    margin: 0;
+    text-shadow: 5px 5px 5px black;
+    color: #f9f9f9;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+h3 {
+    margin: 0;
+    color: #f9f9f9;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    color: #f9f9f9;
+    margin: 10px;
+}
+
+.banner {
+    background-image: url(images/header.jpg);
+    background-size: 100%;
+    color: #f9f9f9;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 235px;
+    margin: 0;
+    padding-bottom: 480px;
+}
+.texto-direita{
+    text-align: right;
+}
+
+.paragrafo{
+
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#descricao {
+    margin: 50px;
+
+}
+
+.cabecalho{
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 10px;
+    align-items: center;
+}
+.cabecalho a {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Muli';
+    font-weight: bold;
+    text-decoration: none;
+    width: 20%;
+    align-items: right;
+    text-align: right;
+    margin: 5px; 
+}
+.cabecalho div{
+        width: 30%;
+}
+.tipodelixo {
+    text-align: center; 
+    margin: 0;
+    padding: 10px;
+}
+
+.seucadastro {
+    text-align: center; 
+    margin: 0;
+    padding: 10px;
+}
+.empresas{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 10px;
+}
+
+.nossocontato{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 10px;
+}
